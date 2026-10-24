@@ -46,8 +46,6 @@ floaty.label.setOnTouchListener(function(view, event) {
     }
     if (event.getAction() == event.ACTION_UP) {
         // Kiểm tra xem người dùng có đang KÉO nút không, nếu kéo thì không tính là chạm
-        var isDrag = false; 
-        // (Auto.js xử lý kéo thả mặc định cho floaty.window, nên ở đây chỉ cần quan tâm ACTION_UP)
         
         var now = Date.now();
         // Lọc các lần chạm cũ
